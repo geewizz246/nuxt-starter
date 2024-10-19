@@ -20,7 +20,7 @@ export default withNuxt(
   },
   {
     name: "geewizz246/nuxt/nested-page-components",
-    files: ["app/pages/**/components/**/*.vue"],
+    files: ["{app/,}pages/**/components/**/*{server,client,}.{vue,jsx,tsx}"],
     rules: {
       "vue/no-multiple-template-root": "off",
     },
