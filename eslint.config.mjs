@@ -13,8 +13,11 @@ export default withNuxt(
     rules: {
       "no-console": "off",
       "antfu/if-newline": "off",
-      "vue/attribute-hyphenation": "off",
       "ts/no-redeclare": "off",
+
+      // Vue-specific
+      "vue/attribute-hyphenation": "off",
+      "vue/max-attributes-per-line": ["warn", { singleline: 3, multiline: 1 }],
     },
   }),
   {
@@ -29,6 +32,7 @@ export default withNuxt(
 
       // or configure rules individually
       "better-tailwindcss/enforce-consistent-line-wrapping": ["warn", { printWidth: 180 }],
+      "better-tailwindcss/no-unregistered-classes": "off",
     },
     settings: {
       "better-tailwindcss": {
