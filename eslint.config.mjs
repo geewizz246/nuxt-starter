@@ -5,13 +5,17 @@ import withNuxt from "./.nuxt/eslint.config.mjs";
 
 export default withNuxt(
   antfu({
+    type: "app",
+    vue: true,
+    typescript: true,
     stylistic: {
+      indent: 2,
       quotes: "double",
       semi: true,
     },
-
     rules: {
       "no-console": "off",
+      "node/prefer-global/process": "off",
       "antfu/if-newline": "off",
       "ts/no-redeclare": "off",
 
