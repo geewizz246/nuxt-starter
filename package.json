@@ -13,22 +13,22 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/eslint": "1.9.0",
+    "@nuxt/eslint": "1.10.0",
     "@nuxt/image": "1.11.0",
-    "@nuxt/ui": "3.3.4",
-    "@vueuse/core": "^13.9.0",
-    "@vueuse/nuxt": "^13.9.0",
-    "nuxt": "^4.1.2",
-    "vue": "^3.5.21",
-    "vue-router": "^4.5.1",
-    "zod": "^4.1.9"
+    "@nuxt/ui": "4.1.0",
+    "@vueuse/core": "^14.0.0",
+    "@vueuse/nuxt": "^14.0.0",
+    "nuxt": "^4.2.0",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.3.0",
+    "@antfu/eslint-config": "^6.2.0",
     "@nuxt/eslint": "1.8.0",
-    "eslint": "^9.35.0",
-    "eslint-plugin-better-tailwindcss": "^3.7.9",
-    "tailwindcss": "^4.1.13",
-    "typescript": "^5.9.2"
+    "eslint": "^9.39.0",
+    "eslint-plugin-better-tailwindcss": "^3.7.10",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3"
   }
 }
